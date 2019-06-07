@@ -21,7 +21,7 @@ library(Variance)
 
 ## Create some data
 
-Firstly, we will check that sample mean gives correct value by calculating the sample mean for the numbers 1 to 10. 
+First we will check that sample mean gives correct value by calculating the sample mean for the numbers 1 to 10. 
 
 ```{r}
 x  <- 1:10
@@ -49,7 +49,7 @@ $$
 my_variance(x)
 ```
 
-We can check this is correct with following
+We can check this is correct with 
 
 $$
 

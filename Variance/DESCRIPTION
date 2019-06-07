@@ -2,18 +2,20 @@ Package: Variance
 Title: Calculates the Sample Variance
 Version: 0.0.0.9000
 Authors@R: 
-    c(person("Yan", "Wang",
-           role = c("cre", "aut"),
-           email = "a1651655@student.adelaide.edu.au"))
+    person(given = "OU",
+           family = "Y",
+           role = c("aut", "cre"),
+           email = "i@adelaide.edu.au",
+           comment = c(ORCID = "0000-0002-1688-8951"))
 Description: Takes all the numbers in a vector. Subtracting the mean, Squaring it, divided by the degrees of freedom.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports: ggplot2
 RoxygenNote: 6.1.1
-Suggests: knitr, rmarkdown, testthat
+Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2019-06-06 17:54:17 UTC; yan
-Author: Yan Wang [cre, aut] 
-Maintainer: Yan Wang <a1651655@student.adelaide.edu.au>
+Packaged: 2019-06-06 17:54:17 UTC; younghee
+Author: OU Y [aut, cre] (<https://orcid.org/0000-0002-1688-8951>)
+Maintainer: OU Y <i@adelaide.edu.au>
