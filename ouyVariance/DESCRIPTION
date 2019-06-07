@@ -1,8 +1,7 @@
 Package: Variance
 Title: Calculates the Sample Variance
 Version: 0.0.0.9000
-Authors@R: 
-person("Yan", "Wang",,"a1651655@student.adelaide.edu.au", role = c("aut", "cre"))
+Authors@R: person("Yan", "Wang",,"a1651655@student.adelaide.edu.au", role = c("aut", "cre"))
 Description: Takes all the numbers in a vector. Subtracting the mean, Squaring it, divided by the degrees of freedom.
 License: GPL-3
 Encoding: UTF-8
