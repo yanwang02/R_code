@@ -2,9 +2,8 @@ Package: Variance
 Title: Calculates the Sample Variance
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Yan",
-           family = "Wang",
-           role = c("aut", "cre"),
+    person("Yan", "Wang",
+           role = c("cre", "aut"),
            email = "a1651655@student.adelaide.edu.au")
 Description: Takes all the numbers in a vector. Subtracting the mean, Squaring it, divided by the degrees of freedom.
 License: GPL-3
@@ -16,5 +15,5 @@ Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
 NeedsCompilation: no
 Packaged: 2019-06-06 17:54:17 UTC; yan
-Author: Yan Wang [aut, cre] 
+Author: Yan Wang [cre, aut] 
 Maintainer: Yan Wang <a1651655@student.adelaide.edu.au>
