@@ -1,0 +1,16 @@
+Package: Variance
+Title: Calculates the Sample Variance
+Version: 0.0.0.9000
+Authors@R: person("Yan", "Wang",,"a1651655@student.adelaide.edu.au", role = c("aut", "cre"))
+Description: Takes all the numbers in a vector. Subtracting the mean, Squaring it, divided by the degrees of freedom.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2
+RoxygenNote: 6.1.1
+Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2019-06-06 17:54:17 UTC; younghee
+Author: Yan Wang [aut, cre] 
+Maintainer: Yan Wang <a1651655@student.adelaide.edu.au>
