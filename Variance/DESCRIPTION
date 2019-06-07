@@ -1,17 +1,27 @@
-Package: Variance
-Title: Calculates the Sample Variance
-Version: 0.0.0.9000
-Authors@R: 
-    person("Yan", "Wang",,"a1651655@student.adelaide.edu.au", role = c("aut", "cre"))
-Description: Takes all the numbers in a vector. Subtracting the mean, Squaring it, divided by the degrees of freedom.
-License: GPL-3
-Encoding: UTF-8
-LazyData: true
-Imports: ggplot2
+Package: SelfControlledCohort
+Type: Package
+Title: Population-level estimation method  that estimates
+    incidence rate comparison of exposed/unexposed time within an exposed
+    cohort
+Version: 1.5.0
+Date: 2018-11-23
+Authors@R: c(
+    person("Martijn", "Schuemie", , "schuemie@ohdsi.org", role = c("aut", "cre")),
+    person("Patrick", "Ryan", role = c("aut"))
+    )
+Author: Patrick Ryan, Martijn Schuemie
+Maintainer: Patrick Ryan <ryan@ohdsi.org>
+Description: This package provides a method to estimate risk by comparing time
+    exposed with time unexposed among the exposed cohort.
+URL: https://github.com/OHDSI/SelfControlledCohort
+BugReports: https://github.com/OHDSI/SelfControlledCohort/issues
+Depends:
+    DatabaseConnector (>= 2.0.0)
+Imports:
+    SqlRender (>= 1.4.3),
+    ParallelLogger,
+    rateratio.test
+Suggests:
+    testthat
+License: Apache License 2.0
 RoxygenNote: 6.1.1
-Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
-VignetteBuilder: knitr
-NeedsCompilation: no
-Packaged: 2019-06-06 17:54:17 UTC; younghee
-Author: Yan Wang [aut, cre] 
-Maintainer: Yan Wang <a1651655@student.adelaide.edu.au>
